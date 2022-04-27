@@ -1,0 +1,16 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Cartelera de Cine</h1>
+
+  <p>Welcome to <em>Cartelera Cine</em></p>
+
+<h2>Dynamic content</h2>
+
+  <p>The cartelera has the following record counts:</p>
+  <ul>
+    <li><strong>Movies:</strong> {{ num_movies }}</li>
+    <li><strong>Directors:</strong> {{ num_directors }}</li>
+  </ul>
+
+{% endblock %}
